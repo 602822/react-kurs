@@ -14,5 +14,8 @@ export const fetchNowcast = async ({ lat, lon }) => {
 };
 
 export const locations = {
-  Bergen: {},
+  Bergen: {
+    lat: 60,
+    lon: 5,
+  },
 };
