@@ -26,7 +26,14 @@ const ToDoList = () => {
   };
 
   return (
-    <Stack direction="column" spacing={1}>
+    <Stack
+      direction={{
+        xs: "column",
+        md: "row",
+      }}
+      spacing={1}
+      id="todolist"
+    >
       <TextField
         label="Ny oppgave"
         variant="outlined"
